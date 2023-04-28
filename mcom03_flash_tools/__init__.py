@@ -21,6 +21,7 @@ FLASH_LIST = [
     FlashType("W25Q128JV-IN/IQ/JQ", 16 * MiB, 64 * KiB, 256, [0xEF, 0x40, 0x18]),
     FlashType("W25Q128JV-IM/JM", 16 * MiB, 64 * KiB, 256, [0xEF, 0x70, 0x18]),
     FlashType("W25Q128FW", 16 * MiB, 64 * KiB, 256, [0xEF, 0x60, 0x18]),
+    FlashType("FM25W128", 16 * MiB, 64 * KiB, 256, [0xA1, 0x28, 0x18]),
 ]
 default_flasher = pkg_resources.resource_filename("mcom03_flash_tools", "spi-flasher-mips-ram.hex")
 
